@@ -1,0 +1,25 @@
+.select-apostila-simulado{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.header-simulado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    color: #fff;  
+    top: 0;
+    position: fixed; 
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+

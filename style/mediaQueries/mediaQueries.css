@@ -1,0 +1,77 @@
+/* 
+HOME MEDSOFT-PRO
+*/
+
+@media (max-width: 320px ){
+    .semanas{
+        margin: 10px;
+    }
+}
+
+@media (min-width: 360px ){
+    .semanas{
+        margin: 5px 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        height: 86vh;
+    }
+    .apostilas-content{
+        height: 100vh;
+        margin: 10px 0 60px 0;
+    }
+    .footer{
+        height: 9vh;
+    }
+    .apostilas-content{
+        justify-content: space-between;
+    }
+    .semanas{
+        margin: 10px 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .apostilas-content{
+        justify-content: space-between;
+    }
+    .semanas{
+        margin: 10px 59px;
+    }
+}
+
+
+
+/* 
+SIMULADO MEDSOFT-PRO
+*/
+
+
+@media (min-width: 360px ){
+    .semana-simulado {
+        margin: 10px 15px;
+    }
+}
+
+@media (min-width: 414px ){
+    .semana-simulado {
+        margin: 10px 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .apostilas-content{
+        justify-content: space-between;
+    }
+    .semana-simulado{
+        margin: 10px 30px;
+    }
+
+    .footer-expandido-layout {
+        height: 55vh;
+    }
+}
+
+

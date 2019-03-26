@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;    
+    font-family: 'Lato', sans-serif;
+}
+
+.footer{   
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.logo {
+    display: contents;
+    background-color: #fff;
+    height: 46px;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo img {   
+    margin: -30px auto;
+    height: 40px;
+}
+
+
+
+.titulo-footer{
+    font-size: 1.1em;
+    color: #a2a3a5;
+    text-align: center;
+}
+
+.subtitulo-footer{
+    font-size: 1.1em;
+    color: #35475b;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon-footer{   
+    font-size: 0.9em;
+    padding: 10px;
+    color: #2d2d2d;
+    text-decoration:none; 
+    text-align: center;
+}
+
+.titulo-icon{
+    font-size: 1.1em;
+    color: #2d2d2d;
+    border-bottom: 2px solid #32afcd;
+    width: fit-content;
+}
+
+
+.treinamento-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.conteudo-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-esquerda{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-right: 2px solid #e7eef6;
+}
+
+.content-centro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-right: 2px solid #e7eef6;
+}
+
+.content-direita{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+
+
+

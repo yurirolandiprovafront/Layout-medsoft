@@ -1,0 +1,82 @@
+.main-content-simulado{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;    
+    z-index: -1;
+    background-image: url(../img/bg.jpg);    
+    background-size: auto;    
+}
+
+.semana-simulado{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3acaed;
+    width: 150px;
+    height: 130px;
+    margin: 15px 0 0 7px;
+    position: relative;
+}
+
+.estude {
+    width: 53px;
+    background-color: #f09026;
+    color: #fff;
+    font-size: 0.7em;
+    font-family: 'NotoBold';
+    position: relative;
+    padding: 5px;
+    border-radius: 17px;
+    left: -5px;
+    top: -60px;
+}
+
+.estude::before{
+    content: 'Estude';
+    width: 53px;
+    background-color: #f09026;
+    position: relative;
+    padding: 5px;
+    z-index: 1;
+    left: 1px;
+    border-radius: 3px;
+    top: 0px;
+}
+
+
+
+.main-content-simulado .apostilas-content img{
+    position: absolute;
+    height: 130px;
+    left: 3px;
+    width: 147px;
+    border-radius: 7px;
+}
+
+.texto {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    left: 10px;    
+    overflow: hidden;
+}
+
+.texto h2 {
+    font-size: 1em;
+}
+.texto p {
+    font-size: 0.8em;
+}
+
+
+.simulado-ano {
+    background-color: #2d2d2dda;
+    color: #fff;
+    text-align: center;
+    padding: 5px;   
+}
+

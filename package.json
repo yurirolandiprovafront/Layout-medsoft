@@ -1,0 +1,32 @@
+{
+  "name": "layout-medsoft",
+  "version": "1.0.0",
+  "description": "Prova Front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "font-awesome": "4.7.0",
+    "highlightjs": "9.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurirolandi"
+  },
+  "author": "Yuri Rolandi",
+  "license": "ISC"
+}

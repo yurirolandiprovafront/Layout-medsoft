@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+body{
+    padding-top: 0px;
+}
+
+.nav-desktop{
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    
+    background-color: #fff;
+    color: #fff;  
+    top: 0;
+    position: fixed; 
+    z-index: 10;
+}
+
+.main-desktop {
+    border-bottom: 2px solid #f0f4fa;
+    color: #000;
+    display: block;
+    padding: 10px;
+}
+
+.main-desktop h2 {
+    font-size: 1.0em;
+    font-family: 'NotoBold';
+}
+
+
+
+.main-desktop ul {
+    margin: 5px 0 0 15px;
+    list-style: none;
+    font-family: 'NotoRegular';
+    cursor: pointer;
+}
+
+.main-desktop li {
+    margin: 10px 0;
+}
+
+.boas-vindas {
+    display: block;
+    font-weight: bold;
+    color: #afb0b1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.boas-vindas img{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 5px;
+}
+
+

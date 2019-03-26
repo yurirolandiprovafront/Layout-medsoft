@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;    
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;    
+    z-index: -1;
+    background-image: url(../img/bg.jpg);    
+    background-size: auto;    
+}
+
+.apostilas-content {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap; 
+    align-self: center;
+    margin: 0 0 60px 0;
+    
+}
+
+.semanas{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: #06171ac4;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+}
+
+.semana-apostila{
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 50px;
+    align-items: center;
+    padding: 10px;
+}
+
+.texto-apostila{
+    margin: 0 auto;
+    
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    color: #fff;
+}
+
+.informacao-semana {
+    font-size: 0.6em;    
+}
+
+.informacao-semana-numero{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+
+
